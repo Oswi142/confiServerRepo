@@ -1,6 +1,5 @@
 server:
-  port: 7006
-
+  port: 7002
 management:
   endpoints:
     web:
@@ -18,4 +17,3 @@ logging:
     root: debug
   pattern:
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
-
